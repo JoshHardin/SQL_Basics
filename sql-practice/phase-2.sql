@@ -1,6 +1,6 @@
 -- Your code here 
-DROP TABLE customers;
-DROP TABLE coffee_orders;
+DROP TABLE IF EXISTS customers;
+DROP TABLE IF EXISTS coffee_orders;
 
 CREATE TABLE customers (
     id INTEGER PRIMARY KEY,
